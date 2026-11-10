@@ -1,0 +1,78 @@
+p {
+    color: #775438
+}
+
+body {
+    background: radial-gradient( rgb(198, 99, 17), rgb(228, 155, 87))
+
+
+    
+}
+
+h1, h2, h3 {
+    color: rgb(119, 84, 56)
+}
+
+ul,
+li {
+    color: rgb(119, 84, 56)
+}
+
+tr,
+th,
+td {
+    color: rgb(119, 84, 56)
+}
+
+button {
+    color: rgb(119, 84, 56)
+}
+
+a {
+    color: rgb(248, 203, 158)
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    font-size: medium;
+}
+
+img {
+    margin-left: 40px;
+}
+
+body {
+    margin-left: 40px;
+}
+input{
+    color: rgb(255, 0, 0);
+}
+nav {
+    background-color: #775438;
+    padding:0 24px;
+}
+nav ul{
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    display: block;
+    padding: 14px 20px;
+    color: #ad7c54;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+nav a:hover{
+    background-color: #d19b6f;
+    transform: scale(1.1);
+}
+nav a.actief{
+    background-color: #efbb91;
+}
